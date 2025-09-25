@@ -1,0 +1,24 @@
+{
+  "name": "brief-greggs-menu",
+  "version": "1.0.0",
+  "description": "QA Engineer Test Brief: Greggs.com Menu Testing public repo",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeWhitelock98/brief-greggs-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JakeWhitelock98/brief-greggs-menu/issues"
+  },
+  "homepage": "https://github.com/JakeWhitelock98/brief-greggs-menu#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2",
+    "allure-playwright": "^3.4.1"
+  }
+}
