@@ -8,6 +8,16 @@ export class NavbarGlobal {
     readonly bannerDescription: Locator;
     readonly searchBox: Locator;
     readonly filterbutton: Locator;
+    readonly menuCarosuel: Locator;
+
+    // Menu Carosuel Items
+    readonly menuCarosuelAll: Locator;
+    readonly menuCarosuelBreakfast: Locator;
+    readonly menuCarosuelSavoryAndBakes: Locator;
+    readonly menuCarosuelDrinksAndSnacks: Locator;
+    readonly menuCarosuelSandwichesAndSalads: Locator;
+    readonly menuCarosuelSweetTreats: Locator;
+    readonly menuCarosuelHotFood: Locator;
 
     //Filter modal general elements
     readonly filterModal: Locator;
@@ -43,6 +53,14 @@ export class NavbarGlobal {
     readonly sweetTreatsCategoryCheckbox: Locator;
     readonly hotFoodCategoryCheckbox: Locator;
 
+    //Menu Headers
+    readonly breakfastHeader: Locator;
+    readonly savoryAndBakesHeader: Locator;
+    readonly drinksAndSnacksHeader: Locator;
+    readonly sandwichesAndSaladsHeader: Locator;
+    readonly sweetTreatsHeader: Locator;
+    readonly hotFoodHeader: Locator;
+
     constructor(page: Page) {
         this.page = page;
         // General Menu Page Elements
@@ -50,6 +68,16 @@ export class NavbarGlobal {
         this.bannerDescription = page.getByText('Find your yummy');
         this.searchBox = page.getByRole('searchbox', { name: 'Search for a product' });
         this.filterbutton = page.locator('[data-test="filterButton"]');
+        this.menuCarosuel = page.locator('[data-test="menuCarousel"]');
+
+        // Menu Carosuel Items
+        this.menuCarosuelAll = page.getByRole('button', { name: 'All', exact: true })
+        this.menuCarosuelBreakfast = page.getByRole('button', { name: 'Breakfast' });
+        this.menuCarosuelSavoryAndBakes = page.getByRole('button', { name: 'Savouries & Bakes' })
+        this.menuCarosuelDrinksAndSnacks = page.getByRole('button', { name: 'Drinks & Snacks' });
+        this.menuCarosuelSandwichesAndSalads = page.getByRole('button', { name: 'Sandwiches & Salads' });
+        this.menuCarosuelSweetTreats = page.getByRole('button', { name: 'Sweet Treats' });
+        this.menuCarosuelHotFood = page.getByRole('button', { name: 'Hot Food' });
 
         //Filter modal general elements
         this.filterModal = page.getByRole('dialog', { name: 'Filters' });
@@ -84,5 +112,13 @@ export class NavbarGlobal {
         this.sandwichesAndSaladsCategoryCheckbox = page.getByRole('checkbox', { name: 'Sandwiches & Salads' });
         this.sweetTreatsCategoryCheckbox = page.getByRole('checkbox', { name: 'Sweet Treats' });
         this.hotFoodCategoryCheckbox = page.getByRole('checkbox', { name: 'Hot Food' });
+
+        //Menu Headers
+        this.breakfastHeader = page.getByRole('heading', { name: 'Breakfast', exact: true });
+        this.savoryAndBakesHeader = page.getByRole('heading', { name: 'Savouries & Bakes' });
+        this.drinksAndSnacksHeader = page.getByRole('heading', { name: 'Drinks & Snacks' });
+        this.sandwichesAndSaladsHeader = page.getByRole('heading', { name: 'Sandwiches & Salads' })
+        this.sweetTreatsHeader = page.getByRole('heading', { name: 'Sweet Treats' })
+        this.hotFoodHeader = page.getByRole('heading', { name: 'Hot Food' })
     }  
 }
