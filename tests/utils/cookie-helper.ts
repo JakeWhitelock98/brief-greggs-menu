@@ -37,7 +37,6 @@ export async function loadCookies(context: BrowserContext, browserName: string):
     try {
       const cookies = JSON.parse(fs.readFileSync(cookiesPath, 'utf-8'));
       await context.addCookies(cookies);
-      console.log(`Loaded ${cookies.length} cookies for ${browserName}`);
     } catch (error) {
       console.error(`Failed to load cookies for ${browserName}:`, error);
     }

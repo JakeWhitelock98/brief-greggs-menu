@@ -38,7 +38,7 @@ export class NavbarGlobal {
 
         // Nav Bar Items
         this.navBar = page.locator('nav[aria-label="Primary"]');
-        this.navItemMenuAndAllergens = page.getByRole('button', { name: 'Nav & allergens' });
+        this.navItemMenuAndAllergens = page.getByRole('button', { name: 'Menu & allergens' });
         this.navItemFindAShop = page.getByRole('link', { name: 'Find a shop' });
         this.navItemWaysToOrder = page.getByRole('link', { name: 'Ways to order' });
         this.navItemGiftCards = page.getByRole('button', { name: 'Gift cards' });
