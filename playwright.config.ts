@@ -38,19 +38,46 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+    // Setup projects to handle cookie acceptance
+    {
+      name: 'setup-chromium',
+      testMatch: /.*\.setup\.ts/,
+      testIgnore: /.*setup-firefox.*\.ts|.*setup-webkit.*\.ts/,
+      use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'setup-firefox',
+      testMatch: /.*\.setup\.ts/,
+      testIgnore: /.*setup-chromium.*\.ts|.*setup-webkit.*\.ts/,
+      use: { ...devices['Desktop Firefox'] },
+    },
+    {
+      name: 'setup-webkit',
+      testMatch: /.*\.setup\.ts/,
+      testIgnore: /.*setup-chromium.*\.ts|.*setup-firefox.*\.ts/,
+      use: { ...devices['Desktop Safari'] },
+    },
+
+    // Main test projects with dependencies on setup
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
+      dependencies: ['setup-chromium'],
+      testIgnore: /.*\.setup\.ts/,
     },
 
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
+      dependencies: ['setup-firefox'],
+      testIgnore: /.*\.setup\.ts/,
     },
 
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
+      dependencies: ['setup-webkit'],
+      testIgnore: /.*\.setup\.ts/,
     },
 
     /* Test against mobile viewports. */
