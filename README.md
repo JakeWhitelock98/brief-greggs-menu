@@ -25,4 +25,12 @@ npx playwright test
 allure serve allure-results
 ```
 
+# What I Tested 
+
+In this example of greggs.com menu testing, the areas tested were;
+- Navigation Bar Item Visibility, to ensure users links to pages in the menu were visible 
+- Navigation Bar Item Navigation, verifying the urls, verifying the page contents are as expected of that links related to the menu
+- Testing of the UI on the menu page, including filters modal
+- Testing of each indivdual menu item to ensure expected elements and data are present 
+
 
