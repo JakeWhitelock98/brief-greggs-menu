@@ -2480,13 +2480,9 @@ async function verifyProductPageContent(page: any, productPage: ProductPage, pro
     // This matches text like "Each Bacon Breakfast Roll (119.5g) contains:" or "Each Sausage Breakfast Roll (154g) contains:"
     const escapedProductName = productName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const portionTextRegex = new RegExp(`Each ${escapedProductName} \\((\\d+(?:\\.\\d+)?(?:g|ml))\\) contains:`, 'i');
-    console.log('Product name:', productName);
-    console.log('Escaped product name:', escapedProductName);
-    console.log('Full regex pattern:', portionTextRegex.source);
     
     // Try to find the text with a more flexible approach
     const allText = await page.textContent('body');
-    console.log('Page contains text matching pattern?', portionTextRegex.test(allText || ''));
     
     // If exact regex fails, try a more flexible approach
     try {
