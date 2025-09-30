@@ -1,0 +1,353 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Greggs homepage" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e8] [cursor=pointer]:
+          - generic [ref=e9] [cursor=pointer]: Greggs homepage
+          - img [ref=e10] [cursor=pointer]
+          - img [ref=e12] [cursor=pointer]
+      - navigation "Main site navigation" [ref=e17]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - generic [ref=e21]:
+              - button "Menu & allergens" [ref=e22] [cursor=pointer]:
+                - text: Menu & allergens
+                - generic [ref=e24] [cursor=pointer]:
+                  - img [ref=e26] [cursor=pointer]
+                  - img [ref=e29] [cursor=pointer]
+              - generic:
+                - generic:
+                  - list:
+                    - listitem:
+                      - link "A bacon roll with ketchup Breakfast" [active]:
+                        - /url: /menu?category=breakfast
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A bacon roll with ketchup"
+                        - generic: Breakfast
+                    - listitem:
+                      - link "A Greggs bake Savouries & Bakes":
+                        - /url: /menu?category=savouries-bakes
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A Greggs bake"
+                        - generic: Savouries & Bakes
+                    - listitem:
+                      - link "A cup of freshly ground Greggs coffee Drinks & Snacks":
+                        - /url: /menu?category=drinks-snacks
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A cup of freshly ground Greggs coffee"
+                        - generic: Drinks & Snacks
+                    - listitem:
+                      - link "A chicken salad sandwich Sandwiches & Salads":
+                        - /url: /menu?category=sandwiches-salads
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A chicken salad sandwich"
+                        - generic: Sandwiches & Salads
+                    - listitem:
+                      - link "A sugar strand doughnut Sweet Treats":
+                        - /url: /menu?category=sweet-treats
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A sugar strand doughnut"
+                        - generic: Sweet Treats
+                    - listitem:
+                      - link "A box of Greggs BBQ chicken bites Hot Food":
+                        - /url: /menu?category=hot-food
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A box of Greggs BBQ chicken bites"
+                        - generic: Hot Food
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - link "View all products":
+                            - /url: /menu
+                        - generic:
+                          - link "Allergens & Nutrition":
+                            - /url: /nutrition
+          - listitem [ref=e31]:
+            - link "Find a shop" [ref=e32] [cursor=pointer]:
+              - /url: /shop-finder
+          - listitem [ref=e33]:
+            - link "Ways to order" [ref=e34] [cursor=pointer]:
+              - /url: /order
+          - listitem [ref=e35]:
+            - generic [ref=e36]:
+              - button "Gift cards" [ref=e37] [cursor=pointer]:
+                - text: Gift cards
+                - generic [ref=e39] [cursor=pointer]:
+                  - img [ref=e41] [cursor=pointer]
+                  - img [ref=e44] [cursor=pointer]
+              - generic:
+                - generic:
+                  - list:
+                    - listitem:
+                      - link "Gift cards":
+                        - /url: /gift-cards/
+                        - generic: Gift cards
+                    - listitem:
+                      - link "Check gift card balance":
+                        - /url: /gift-cards#check-gift-card-balance
+                        - generic: Check gift card balance
+          - listitem [ref=e46]:
+            - link "Greggs App" [ref=e47] [cursor=pointer]:
+              - /url: /app
+          - listitem [ref=e48]:
+            - link "Doing Good" [ref=e49] [cursor=pointer]:
+              - /url: /doing-good
+          - listitem [ref=e50]:
+            - link "News" [ref=e51] [cursor=pointer]:
+              - /url: /news/
+  - main [ref=e52]:
+    - generic [ref=e53]:
+      - heading "OUR MENU Find your yummy" [level=1] [ref=e72]:
+        - generic [ref=e73]: OUR MENU
+        - generic [ref=e74]: Find your yummy
+      - img [ref=e76]
+      - generic [ref=e108]:
+        - generic [ref=e110]:
+          - img [ref=e111]
+          - generic [ref=e113]: Search for a product
+          - searchbox "Search for a product" [ref=e114]
+        - generic [ref=e117]:
+          - button "Filter results" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119] [cursor=pointer]: Filter results
+            - img [ref=e120] [cursor=pointer]
+          - generic [ref=e129]:
+            - button "All" [ref=e130] [cursor=pointer]
+            - button "Breakfast" [ref=e131] [cursor=pointer]
+            - button "Savouries & Bakes" [ref=e132] [cursor=pointer]
+            - button "Drinks & Snacks" [ref=e133] [cursor=pointer]
+            - button "Sandwiches & Salads" [ref=e134] [cursor=pointer]
+            - button "Sweet Treats" [ref=e135] [cursor=pointer]
+            - button "Hot Food" [ref=e136] [cursor=pointer]
+        - generic [ref=e143]:
+          - heading "Breakfast" [level=2] [ref=e144]
+          - generic [ref=e145]:
+            - link "Bacon Breakfast Roll Bacon Breakfast Roll" [ref=e146] [cursor=pointer]:
+              - /url: /menu/product/bacon-breakfast-roll-1000714
+              - img "Bacon Breakfast Roll" [ref=e152] [cursor=pointer]
+              - heading "Bacon Breakfast Roll" [level=3] [ref=e153] [cursor=pointer]
+            - link "Sausage Breakfast Roll Sausage Breakfast Roll" [ref=e154] [cursor=pointer]:
+              - /url: /menu/product/sausage-breakfast-roll-1000715
+              - img "Sausage Breakfast Roll" [ref=e160] [cursor=pointer]
+              - heading "Sausage Breakfast Roll" [level=3] [ref=e161] [cursor=pointer]
+            - link "Omelette Breakfast Roll Omelette Breakfast Roll" [ref=e162] [cursor=pointer]:
+              - /url: /menu/product/omelette-breakfast-roll-1000722
+              - img "Omelette Breakfast Roll" [ref=e168] [cursor=pointer]
+              - heading "Omelette Breakfast Roll" [level=3] [ref=e169] [cursor=pointer]
+            - link "Vegan Sausage Breakfast Roll Vegan Sausage Breakfast Roll" [ref=e170] [cursor=pointer]:
+              - /url: /menu/product/vegan-sausage-breakfast-roll-1002132
+              - img "Vegan Sausage Breakfast Roll" [ref=e176] [cursor=pointer]
+              - heading "Vegan Sausage Breakfast Roll" [level=3] [ref=e177] [cursor=pointer]
+            - link "Bacon and Omelette Breakfast Roll Bacon and Omelette Breakfast Roll" [ref=e178] [cursor=pointer]:
+              - /url: /menu/product/bacon-and-omelette-breakfast-roll-1000720
+              - img "Bacon and Omelette Breakfast Roll" [ref=e184] [cursor=pointer]
+              - heading "Bacon and Omelette Breakfast Roll" [level=3] [ref=e185] [cursor=pointer]
+            - link "Bacon and Sausage Breakfast Roll Bacon and Sausage Breakfast Roll" [ref=e186] [cursor=pointer]:
+              - /url: /menu/product/bacon-and-sausage-breakfast-roll-1000716
+              - img "Bacon and Sausage Breakfast Roll" [ref=e192] [cursor=pointer]
+              - heading "Bacon and Sausage Breakfast Roll" [level=3] [ref=e193] [cursor=pointer]
+            - link "Sausage and Omelette Breakfast Roll Sausage and Omelette Breakfast Roll" [ref=e194] [cursor=pointer]:
+              - /url: /menu/product/sausage-and-omelette-breakfast-roll-1000721
+              - img "Sausage and Omelette Breakfast Roll" [ref=e200] [cursor=pointer]
+              - heading "Sausage and Omelette Breakfast Roll" [level=3] [ref=e201] [cursor=pointer]
+            - link "Bacon Breakfast Baguette Bacon Breakfast Baguette" [ref=e202] [cursor=pointer]:
+              - /url: /menu/product/bacon-breakfast-baguette-1000724
+              - img "Bacon Breakfast Baguette" [ref=e208] [cursor=pointer]
+              - heading "Bacon Breakfast Baguette" [level=3] [ref=e209] [cursor=pointer]
+            - link "Sausage Breakfast Baguette Sausage Breakfast Baguette" [ref=e210] [cursor=pointer]:
+              - /url: /menu/product/sausage-breakfast-baguette-1000725
+              - img "Sausage Breakfast Baguette" [ref=e216] [cursor=pointer]
+              - heading "Sausage Breakfast Baguette" [level=3] [ref=e217] [cursor=pointer]
+            - link "Omelette Breakfast Baguette Omelette Breakfast Baguette" [ref=e218] [cursor=pointer]:
+              - /url: /menu/product/omelette-breakfast-baguette-1000728
+              - img "Omelette Breakfast Baguette" [ref=e224] [cursor=pointer]
+              - heading "Omelette Breakfast Baguette" [level=3] [ref=e225] [cursor=pointer]
+            - link "Bacon and Omelette Breakfast Baguette Bacon and Omelette Breakfast Baguette" [ref=e226] [cursor=pointer]:
+              - /url: /menu/product/bacon-and-omelette-breakfast-baguette-1000726
+              - img "Bacon and Omelette Breakfast Baguette" [ref=e232] [cursor=pointer]
+              - heading "Bacon and Omelette Breakfast Baguette" [level=3] [ref=e233] [cursor=pointer]
+            - link "Bacon and Sausage Breakfast Baguette Bacon and Sausage Breakfast Baguette" [ref=e234] [cursor=pointer]:
+              - /url: /menu/product/bacon-and-sausage-breakfast-baguette-1000723
+              - img "Bacon and Sausage Breakfast Baguette" [ref=e240] [cursor=pointer]
+              - heading "Bacon and Sausage Breakfast Baguette" [level=3] [ref=e241] [cursor=pointer]
+            - link "Sausage and Omelette Breakfast Baguette Sausage and Omelette Breakfast Baguette" [ref=e242] [cursor=pointer]:
+              - /url: /menu/product/sausage-and-omelette-breakfast-baguette-1000727
+              - img "Sausage and Omelette Breakfast Baguette" [ref=e248] [cursor=pointer]
+              - heading "Sausage and Omelette Breakfast Baguette" [level=3] [ref=e249] [cursor=pointer]
+            - link "Bacon and Cheese Wrap Bacon and Cheese Wrap" [ref=e250] [cursor=pointer]:
+              - /url: /menu/product/bacon-and-cheese-wrap-2000555
+              - img "Bacon and Cheese Wrap" [ref=e256] [cursor=pointer]
+              - heading "Bacon and Cheese Wrap" [level=3] [ref=e257] [cursor=pointer]
+            - link "Hash Brown (2 pack) Hash Brown (2 pack)" [ref=e258] [cursor=pointer]:
+              - /url: /menu/product/hash-brown-2-pack-1002105
+              - img "Hash Brown (2 pack)" [ref=e264] [cursor=pointer]
+              - heading "Hash Brown (2 pack)" [level=3] [ref=e265] [cursor=pointer]
+            - link "Pain au Chocolat Pain au Chocolat" [ref=e266] [cursor=pointer]:
+              - /url: /menu/product/pain-au-chocolat-2001406
+              - img "Pain au Chocolat" [ref=e272] [cursor=pointer]
+              - heading "Pain au Chocolat" [level=3] [ref=e273] [cursor=pointer]
+            - link "All Butter Croissant All Butter Croissant" [ref=e274] [cursor=pointer]:
+              - /url: /menu/product/all-butter-croissant-2001357
+              - img "All Butter Croissant" [ref=e280] [cursor=pointer]
+              - heading "All Butter Croissant" [level=3] [ref=e281] [cursor=pointer]
+            - link "Simply Creamy Porridge (Ready to eat) Simply Creamy Porridge (Ready to eat)" [ref=e282] [cursor=pointer]:
+              - /url: /menu/product/simply-creamy-porridge-ready-to-eat-1003367
+              - img "Simply Creamy Porridge (Ready to eat)" [ref=e288] [cursor=pointer]
+              - heading "Simply Creamy Porridge (Ready to eat)" [level=3] [ref=e289] [cursor=pointer]
+            - link "Golden Syrup Flavour Porridge (Ready to eat) Golden Syrup Flavour Porridge (Ready to eat)" [ref=e290] [cursor=pointer]:
+              - /url: /menu/product/golden-syrup-flavour-porridge-ready-to-eat-1003368
+              - img "Golden Syrup Flavour Porridge (Ready to eat)" [ref=e296] [cursor=pointer]
+              - heading "Golden Syrup Flavour Porridge (Ready to eat)" [level=3] [ref=e297] [cursor=pointer]
+            - link "Apple & Cinnamon Flavour Porridge (Ready to eat) Apple & Cinnamon Flavour Porridge (Ready to eat)" [ref=e298] [cursor=pointer]:
+              - /url: /menu/product/apple-cinnamon-flavour-porridge-ready-to-eat-1003369
+              - img "Apple & Cinnamon Flavour Porridge (Ready to eat)" [ref=e304] [cursor=pointer]
+              - heading "Apple & Cinnamon Flavour Porridge (Ready to eat)" [level=3] [ref=e305] [cursor=pointer]
+      - img [ref=e308]
+      - generic [ref=e310]:
+        - link "Find a shop" [ref=e313] [cursor=pointer]:
+          - /url: /shop-finder
+          - img
+          - paragraph [ref=e315] [cursor=pointer]:
+            - text: Find a
+            - text: shop
+            - img [ref=e316] [cursor=pointer]
+        - link "Click + Collect" [ref=e320] [cursor=pointer]:
+          - /url: /click-and-collect
+          - img
+          - paragraph [ref=e322] [cursor=pointer]:
+            - text: Click
+            - generic [ref=e323] [cursor=pointer]: +
+            - text: Collect
+            - img [ref=e324] [cursor=pointer]
+        - link "Delivery" [ref=e328] [cursor=pointer]:
+          - /url: /order/delivery
+          - img
+          - paragraph [ref=e330] [cursor=pointer]:
+            - generic [ref=e331] [cursor=pointer]:
+              - text: Delivery
+              - img [ref=e332] [cursor=pointer]
+        - link "Download the app" [ref=e336] [cursor=pointer]:
+          - /url: /app
+          - img [ref=e337] [cursor=pointer]
+          - paragraph [ref=e346] [cursor=pointer]:
+            - text: Download
+            - text: the app
+            - img [ref=e347] [cursor=pointer]
+        - img [ref=e350]
+      - img [ref=e354]
+      - generic [ref=e357]:
+        - heading "Greggs App" [level=2] [ref=e358]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img "Hand holding image of newly designed app"
+        - paragraph [ref=e359]: Don’t worry, be ‘appy. Our all-singing, all-dancing Greggs App is packed with some seriously tasty features. And, in our humble opinion, your phone ain’t smart without it.
+        - generic [ref=e362]:
+          - link "Download the app" [ref=e364] [cursor=pointer]:
+            - /url: https://greggs.onelink.me/0Hou/4db723mb
+          - link "Get more info" [ref=e366] [cursor=pointer]:
+            - /url: /app
+      - img [ref=e369]
+  - contentinfo [ref=e371]:
+    - generic [ref=e372]:
+      - generic [ref=e373]:
+        - heading "Fill Your Feeds With Yummy Fill your Feeds" [level=2] [ref=e374]:
+          - generic [ref=e375]: Fill Your Feeds With Yummy
+          - img "Fill your Feeds" [ref=e376]
+        - heading "Follow Greggs" [level=3] [ref=e379]
+        - navigation "Greggs Social media links navigation" [ref=e380]:
+          - list [ref=e381]:
+            - listitem [ref=e382]:
+              - link "Follow us on Facebook" [ref=e383] [cursor=pointer]:
+                - /url: https://www.facebook.com/greggsofficial
+                - generic [ref=e384] [cursor=pointer]: Facebook
+                - img [ref=e385] [cursor=pointer]
+            - listitem [ref=e387]:
+              - link "Follow us on Instagram" [ref=e388] [cursor=pointer]:
+                - /url: https://www.instagram.com/greggs_official
+                - generic [ref=e389] [cursor=pointer]: Instagram
+                - img [ref=e390] [cursor=pointer]
+            - listitem [ref=e392]:
+              - link "Follow us on X" [ref=e393] [cursor=pointer]:
+                - /url: https://twitter.com/GreggsOfficial
+                - generic [ref=e394] [cursor=pointer]: X
+                - img [ref=e395] [cursor=pointer]
+            - listitem [ref=e397]:
+              - link "Follow us on TikTok" [ref=e398] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@greggsofficial
+                - generic [ref=e399] [cursor=pointer]: TikTok
+                - img [ref=e400] [cursor=pointer]
+      - navigation "Footer navigation" [ref=e404]:
+        - list [ref=e405]:
+          - listitem [ref=e406]:
+            - link "About Us" [ref=e407] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e408]:
+            - link "Contact Us" [ref=e409] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e410]:
+            - link "Privacy Policy" [ref=e411] [cursor=pointer]:
+              - /url: /legals/privacy-policy
+        - list [ref=e412]:
+          - listitem [ref=e413]:
+            - link "Cookie Policy" [ref=e414] [cursor=pointer]:
+              - /url: /legals/cookie-policy
+          - listitem [ref=e415]:
+            - link "Modern Slavery Statement" [ref=e416] [cursor=pointer]:
+              - /url: https://a.storyblok.com/f/94904/x/4205c604f5/greggs-modern-slavery-statement.pdf
+          - listitem [ref=e417]:
+            - link "Pay Gap" [ref=e418] [cursor=pointer]:
+              - /url: https://a.storyblok.com/f/94904/x/bc10774e9a/greggs-pay-gap-report-2023.pdf
+        - list [ref=e419]:
+          - listitem [ref=e420]:
+            - link "Greggs Foundation" [ref=e421] [cursor=pointer]:
+              - /url: https://www.greggsfoundation.org.uk
+          - listitem [ref=e422]:
+            - link "Greggs Careers" [ref=e423] [cursor=pointer]:
+              - /url: https://careers.greggs.co.uk
+          - listitem [ref=e424]:
+            - link "Corporate" [ref=e425] [cursor=pointer]:
+              - /url: https://corporate.greggs.co.uk/
+        - list [ref=e426]:
+          - listitem [ref=e427]:
+            - link "FAQs" [ref=e428] [cursor=pointer]:
+              - /url: /faqs/
+          - listitem [ref=e429]:
+            - link "T&Cs" [ref=e430] [cursor=pointer]:
+              - /url: /legals/terms-and-conditions
+          - listitem [ref=e431]:
+            - generic [ref=e432] [cursor=pointer]: Cookie settings
+          - listitem [ref=e433]:
+            - link "Promotions and offers" [ref=e434] [cursor=pointer]:
+              - /url: /legals/promotions-and-offers
+      - paragraph [ref=e435]: Copyright © 2013 - 2025 Greggs plc
+```

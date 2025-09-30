@@ -55,6 +55,8 @@ As I don't have access to product data other than what is seen on the site, I to
 # Assumptions or limitations
 - Assuming all the data on the production site of greggs is correct
 - Automated testing for accessbility isn't a catch all, so manual testing for accessibility is highly recommended as only manu issues can only be found manually. I would use "Accessibility Insights for Web" for this case. 
+- Unable to have them running in CI/CD pipelines
+- Utilised Claude to assist in test replication and cookies setup handling
 
 
 

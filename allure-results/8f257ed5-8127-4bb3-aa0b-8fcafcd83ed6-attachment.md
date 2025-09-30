@@ -1,0 +1,924 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Greggs homepage" [ref=e7]:
+        - /url: /
+        - generic [ref=e8]:
+          - generic [ref=e9]: Greggs homepage
+          - img [ref=e10]
+          - img [ref=e12]
+      - navigation "Main site navigation" [ref=e17]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - generic [ref=e21]:
+              - button "Menu & allergens" [ref=e22] [cursor=pointer]:
+                - text: Menu & allergens
+                - generic [ref=e24] [cursor=pointer]:
+                  - img [ref=e26] [cursor=pointer]
+                  - img [ref=e29] [cursor=pointer]
+              - generic:
+                - generic:
+                  - list:
+                    - listitem:
+                      - link "A bacon roll with ketchup Breakfast":
+                        - /url: /menu?category=breakfast
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A bacon roll with ketchup"
+                        - generic: Breakfast
+                    - listitem:
+                      - link "A Greggs bake Savouries & Bakes":
+                        - /url: /menu?category=savouries-bakes
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A Greggs bake"
+                        - generic: Savouries & Bakes
+                    - listitem:
+                      - link "A cup of freshly ground Greggs coffee Drinks & Snacks":
+                        - /url: /menu?category=drinks-snacks
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A cup of freshly ground Greggs coffee"
+                        - generic: Drinks & Snacks
+                    - listitem:
+                      - link "A chicken salad sandwich Sandwiches & Salads":
+                        - /url: /menu?category=sandwiches-salads
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A chicken salad sandwich"
+                        - generic: Sandwiches & Salads
+                    - listitem:
+                      - link "A sugar strand doughnut Sweet Treats":
+                        - /url: /menu?category=sweet-treats
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A sugar strand doughnut"
+                        - generic: Sweet Treats
+                    - listitem:
+                      - link "A box of Greggs BBQ chicken bites Hot Food":
+                        - /url: /menu?category=hot-food
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img "A box of Greggs BBQ chicken bites"
+                        - generic: Hot Food
+                    - listitem:
+                      - generic:
+                        - generic:
+                          - link "View all products":
+                            - /url: /menu
+                        - generic:
+                          - link "Allergens & Nutrition":
+                            - /url: /nutrition
+          - listitem [ref=e31]:
+            - link "Find a shop" [ref=e32]:
+              - /url: /shop-finder
+          - listitem [ref=e33]:
+            - link "Ways to order" [ref=e34]:
+              - /url: /order
+          - listitem [ref=e35]:
+            - generic [ref=e36]:
+              - button "Gift cards" [ref=e37] [cursor=pointer]:
+                - text: Gift cards
+                - generic [ref=e39] [cursor=pointer]:
+                  - img [ref=e41] [cursor=pointer]
+                  - img [ref=e44] [cursor=pointer]
+              - generic:
+                - generic:
+                  - list:
+                    - listitem:
+                      - link "Gift cards":
+                        - /url: /gift-cards/
+                        - generic: Gift cards
+                    - listitem:
+                      - link "Check gift card balance":
+                        - /url: /gift-cards#check-gift-card-balance
+                        - generic: Check gift card balance
+          - listitem [ref=e46]:
+            - link "Greggs App" [ref=e47]:
+              - /url: /app
+          - listitem [ref=e48]:
+            - link "Doing Good" [ref=e49]:
+              - /url: /doing-good
+          - listitem [ref=e50]:
+            - link "News" [ref=e51]:
+              - /url: /news/
+  - main [ref=e52]:
+    - generic [ref=e53]:
+      - heading "OUR MENU Find your yummy" [level=1] [ref=e72]:
+        - generic [ref=e73]: OUR MENU
+        - generic [ref=e74]: Find your yummy
+      - img [ref=e76]
+      - generic [ref=e108]:
+        - generic [ref=e110]:
+          - img [ref=e111]
+          - generic [ref=e113]: Search for a product
+          - searchbox "Search for a product" [ref=e114]
+        - generic [ref=e117]:
+          - button "Filter results" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119] [cursor=pointer]: Filter results
+            - img [ref=e120] [cursor=pointer]
+          - generic [ref=e129]:
+            - button "All" [ref=e130] [cursor=pointer]
+            - button "Breakfast" [ref=e131] [cursor=pointer]
+            - button "Savouries & Bakes" [ref=e132] [cursor=pointer]
+            - button "Drinks & Snacks" [ref=e133] [cursor=pointer]
+            - button "Sandwiches & Salads" [ref=e134] [cursor=pointer]
+            - button "Sweet Treats" [ref=e135] [cursor=pointer]
+            - button "Hot Food" [ref=e136] [cursor=pointer]
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - heading "Breakfast" [level=2] [ref=e143]
+            - generic [ref=e144]:
+              - link "Bacon Breakfast Roll Bacon Breakfast Roll" [ref=e145]:
+                - /url: /menu/product/bacon-breakfast-roll-1000714
+                - img "Bacon Breakfast Roll" [ref=e151]
+                - heading "Bacon Breakfast Roll" [level=3] [ref=e152]
+              - link "Sausage Breakfast Roll Sausage Breakfast Roll" [ref=e153]:
+                - /url: /menu/product/sausage-breakfast-roll-1000715
+                - img "Sausage Breakfast Roll" [ref=e159]
+                - heading "Sausage Breakfast Roll" [level=3] [ref=e160]
+              - link "Omelette Breakfast Roll Omelette Breakfast Roll" [ref=e161]:
+                - /url: /menu/product/omelette-breakfast-roll-1000722
+                - img "Omelette Breakfast Roll" [ref=e167]
+                - heading "Omelette Breakfast Roll" [level=3] [ref=e168]
+              - link "Vegan Sausage Breakfast Roll Vegan Sausage Breakfast Roll" [ref=e169]:
+                - /url: /menu/product/vegan-sausage-breakfast-roll-1002132
+                - img "Vegan Sausage Breakfast Roll" [ref=e175]
+                - heading "Vegan Sausage Breakfast Roll" [level=3] [ref=e176]
+              - link "Bacon and Omelette Breakfast Roll Bacon and Omelette Breakfast Roll" [ref=e177]:
+                - /url: /menu/product/bacon-and-omelette-breakfast-roll-1000720
+                - img "Bacon and Omelette Breakfast Roll" [ref=e183]
+                - heading "Bacon and Omelette Breakfast Roll" [level=3] [ref=e184]
+              - link "Bacon and Sausage Breakfast Roll Bacon and Sausage Breakfast Roll" [ref=e185]:
+                - /url: /menu/product/bacon-and-sausage-breakfast-roll-1000716
+                - img "Bacon and Sausage Breakfast Roll" [ref=e191]
+                - heading "Bacon and Sausage Breakfast Roll" [level=3] [ref=e192]
+              - link "Sausage and Omelette Breakfast Roll Sausage and Omelette Breakfast Roll" [ref=e193]:
+                - /url: /menu/product/sausage-and-omelette-breakfast-roll-1000721
+                - img "Sausage and Omelette Breakfast Roll" [ref=e199]
+                - heading "Sausage and Omelette Breakfast Roll" [level=3] [ref=e200]
+              - link "Bacon Breakfast Baguette Bacon Breakfast Baguette" [ref=e201]:
+                - /url: /menu/product/bacon-breakfast-baguette-1000724
+                - img "Bacon Breakfast Baguette" [ref=e207]
+                - heading "Bacon Breakfast Baguette" [level=3] [ref=e208]
+              - link "Sausage Breakfast Baguette Sausage Breakfast Baguette" [ref=e209]:
+                - /url: /menu/product/sausage-breakfast-baguette-1000725
+                - img "Sausage Breakfast Baguette" [ref=e215]
+                - heading "Sausage Breakfast Baguette" [level=3] [ref=e216]
+              - link "Omelette Breakfast Baguette Omelette Breakfast Baguette" [ref=e217]:
+                - /url: /menu/product/omelette-breakfast-baguette-1000728
+                - img "Omelette Breakfast Baguette" [ref=e223]
+                - heading "Omelette Breakfast Baguette" [level=3] [ref=e224]
+              - link "Bacon and Omelette Breakfast Baguette Bacon and Omelette Breakfast Baguette" [ref=e225]:
+                - /url: /menu/product/bacon-and-omelette-breakfast-baguette-1000726
+                - img "Bacon and Omelette Breakfast Baguette" [ref=e231]
+                - heading "Bacon and Omelette Breakfast Baguette" [level=3] [ref=e232]
+              - link "Bacon and Sausage Breakfast Baguette Bacon and Sausage Breakfast Baguette" [ref=e233]:
+                - /url: /menu/product/bacon-and-sausage-breakfast-baguette-1000723
+                - img "Bacon and Sausage Breakfast Baguette" [ref=e239]
+                - heading "Bacon and Sausage Breakfast Baguette" [level=3] [ref=e240]
+              - link "Sausage and Omelette Breakfast Baguette Sausage and Omelette Breakfast Baguette" [ref=e241]:
+                - /url: /menu/product/sausage-and-omelette-breakfast-baguette-1000727
+                - img "Sausage and Omelette Breakfast Baguette" [ref=e247]
+                - heading "Sausage and Omelette Breakfast Baguette" [level=3] [ref=e248]
+              - link "Bacon and Cheese Wrap Bacon and Cheese Wrap" [ref=e249]:
+                - /url: /menu/product/bacon-and-cheese-wrap-2000555
+                - img "Bacon and Cheese Wrap" [ref=e255]
+                - heading "Bacon and Cheese Wrap" [level=3] [ref=e256]
+              - link "Hash Brown (2 pack) Hash Brown (2 pack)" [ref=e257]:
+                - /url: /menu/product/hash-brown-2-pack-1002105
+                - img "Hash Brown (2 pack)" [ref=e263]
+                - heading "Hash Brown (2 pack)" [level=3] [ref=e264]
+              - link "Pain au Chocolat Pain au Chocolat" [ref=e265]:
+                - /url: /menu/product/pain-au-chocolat-2001406
+                - img "Pain au Chocolat" [ref=e271]
+                - heading "Pain au Chocolat" [level=3] [ref=e272]
+              - link "All Butter Croissant All Butter Croissant" [ref=e273]:
+                - /url: /menu/product/all-butter-croissant-2001357
+                - img "All Butter Croissant" [ref=e279]
+                - heading "All Butter Croissant" [level=3] [ref=e280]
+              - link "Simply Creamy Porridge (Ready to eat) Simply Creamy Porridge (Ready to eat)" [ref=e281]:
+                - /url: /menu/product/simply-creamy-porridge-ready-to-eat-1003367
+                - img "Simply Creamy Porridge (Ready to eat)" [ref=e287]
+                - heading "Simply Creamy Porridge (Ready to eat)" [level=3] [ref=e288]
+              - link "Golden Syrup Flavour Porridge (Ready to eat) Golden Syrup Flavour Porridge (Ready to eat)" [ref=e289]:
+                - /url: /menu/product/golden-syrup-flavour-porridge-ready-to-eat-1003368
+                - img "Golden Syrup Flavour Porridge (Ready to eat)" [ref=e295]
+                - heading "Golden Syrup Flavour Porridge (Ready to eat)" [level=3] [ref=e296]
+              - link "Apple & Cinnamon Flavour Porridge (Ready to eat) Apple & Cinnamon Flavour Porridge (Ready to eat)" [ref=e297]:
+                - /url: /menu/product/apple-cinnamon-flavour-porridge-ready-to-eat-1003369
+                - img "Apple & Cinnamon Flavour Porridge (Ready to eat)" [ref=e303]
+                - heading "Apple & Cinnamon Flavour Porridge (Ready to eat)" [level=3] [ref=e304]
+          - generic [ref=e306]:
+            - heading "Savouries & Bakes" [level=2] [ref=e307]
+            - generic [ref=e308]:
+              - link "Sausage Roll Sausage Roll" [ref=e309]:
+                - /url: /menu/product/sausage-roll-1000446
+                - img "Sausage Roll" [ref=e315]
+                - heading "Sausage Roll" [level=3] [ref=e316]
+              - link "Vegan Sausage Roll Vegan Sausage Roll" [ref=e317]:
+                - /url: /menu/product/vegan-sausage-roll-1001657
+                - img "Vegan Sausage Roll" [ref=e323]
+                - heading "Vegan Sausage Roll" [level=3] [ref=e324]
+              - link "Cheese & Onion Bake Cheese & Onion Bake" [ref=e325]:
+                - /url: /menu/product/cheese-onion-bake-1000516
+                - img "Cheese & Onion Bake" [ref=e331]
+                - heading "Cheese & Onion Bake" [level=3] [ref=e332]
+              - link "Steak Bake Steak Bake" [ref=e333]:
+                - /url: /menu/product/steak-bake-1000514
+                - img "Steak Bake" [ref=e339]
+                - heading "Steak Bake" [level=3] [ref=e340]
+              - link "Chicken Bake Chicken Bake" [ref=e341]:
+                - /url: /menu/product/chicken-bake-1000515
+                - img "Chicken Bake" [ref=e347]
+                - heading "Chicken Bake" [level=3] [ref=e348]
+              - link "Sausage, Bean & Cheese Melt Sausage, Bean & Cheese Melt" [ref=e349]:
+                - /url: /menu/product/sausage-bean-cheese-melt-1000517
+                - img "Sausage, Bean & Cheese Melt" [ref=e355]
+                - heading "Sausage, Bean & Cheese Melt" [level=3] [ref=e356]
+              - link "Vegan Lattice (Steak-Free) Vegan Lattice (Steak-Free)" [ref=e357]:
+                - /url: /menu/product/vegan-lattice-steak-free-1001930
+                - img "Vegan Lattice (Steak-Free)" [ref=e363]
+                - heading "Vegan Lattice (Steak-Free)" [level=3] [ref=e364]
+              - link "Fajita Chicken Bake Fajita Chicken Bake" [ref=e365]:
+                - /url: /menu/product/fajita-chicken-bake-1003194
+                - img "Fajita Chicken Bake" [ref=e371]
+                - heading "Fajita Chicken Bake" [level=3] [ref=e372]
+              - link "Margherita Pizza Margherita Pizza" [ref=e373]:
+                - /url: /menu/product/margherita-pizza-1001170
+                - img "Margherita Pizza" [ref=e379]
+                - heading "Margherita Pizza" [level=3] [ref=e380]
+              - link "Pepperoni Pizza Pepperoni Pizza" [ref=e381]:
+                - /url: /menu/product/pepperoni-pizza-1001171
+                - img "Pepperoni Pizza" [ref=e387]
+                - heading "Pepperoni Pizza" [level=3] [ref=e388]
+              - link "Spicy Chicken Pizza Spicy Chicken Pizza" [ref=e389]:
+                - /url: /menu/product/spicy-chicken-pizza-1003327
+                - img "Spicy Chicken Pizza" [ref=e395]
+                - heading "Spicy Chicken Pizza" [level=3] [ref=e396]
+          - generic [ref=e398]:
+            - heading "Drinks & Snacks" [level=2] [ref=e399]
+            - generic [ref=e400]:
+              - link "Ready to Drink Latte Ready to Drink Latte" [ref=e401]:
+                - /url: /menu/product/ready-to-drink-latte-2001025
+                - img "Ready to Drink Latte" [ref=e407]
+                - heading "Ready to Drink Latte" [level=3] [ref=e408]
+              - link "Ready to Drink Caramel Latte Ready to Drink Caramel Latte" [ref=e409]:
+                - /url: /menu/product/ready-to-drink-caramel-latte-2000986
+                - img "Ready to Drink Caramel Latte" [ref=e415]
+                - heading "Ready to Drink Caramel Latte" [level=3] [ref=e416]
+              - link "Regular Americano Regular Americano" [ref=e417]:
+                - /url: /menu/product/regular-americano-1000768
+                - img "Regular Americano" [ref=e423]
+                - heading "Regular Americano" [level=3] [ref=e424]
+              - link "Large Americano Large Americano" [ref=e425]:
+                - /url: /menu/product/large-americano-1000778
+                - img "Large Americano" [ref=e431]
+                - heading "Large Americano" [level=3] [ref=e432]
+              - link "Regular Cappuccino Regular Cappuccino" [ref=e433]:
+                - /url: /menu/product/regular-cappuccino-1000775
+                - img "Regular Cappuccino" [ref=e439]
+                - heading "Regular Cappuccino" [level=3] [ref=e440]
+              - link "Large Cappuccino Large Cappuccino" [ref=e441]:
+                - /url: /menu/product/large-cappuccino-1000777
+                - img "Large Cappuccino" [ref=e447]
+                - heading "Large Cappuccino" [level=3] [ref=e448]
+              - link "Regular Latte Regular Latte" [ref=e449]:
+                - /url: /menu/product/regular-latte-1000774
+                - img "Regular Latte" [ref=e455]
+                - heading "Regular Latte" [level=3] [ref=e456]
+              - link "Large Latte Large Latte" [ref=e457]:
+                - /url: /menu/product/large-latte-1000771
+                - img "Large Latte" [ref=e463]
+                - heading "Large Latte" [level=3] [ref=e464]
+              - link "Regular Caramel Latte Regular Caramel Latte" [ref=e465]:
+                - /url: /menu/product/regular-caramel-latte-1000820
+                - img "Regular Caramel Latte" [ref=e471]
+                - heading "Regular Caramel Latte" [level=3] [ref=e472]
+              - link "Large Caramel Latte Large Caramel Latte" [ref=e473]:
+                - /url: /menu/product/large-caramel-latte-1001157
+                - img "Large Caramel Latte" [ref=e479]
+                - heading "Large Caramel Latte" [level=3] [ref=e480]
+              - link "Regular Vanilla Latte Regular Vanilla Latte" [ref=e481]:
+                - /url: /menu/product/regular-vanilla-latte-1000998
+                - img "Regular Vanilla Latte" [ref=e487]
+                - heading "Regular Vanilla Latte" [level=3] [ref=e488]
+              - link "Large Vanilla Latte Large Vanilla Latte" [ref=e489]:
+                - /url: /menu/product/large-vanilla-latte-1000999
+                - img "Large Vanilla Latte" [ref=e495]
+                - heading "Large Vanilla Latte" [level=3] [ref=e496]
+              - link "Regular Pumpkin Spice Latte (New Recipe) Regular Pumpkin Spice Latte (New Recipe)" [ref=e497]:
+                - /url: /menu/product/regular-pumpkin-spice-latte-new-recipe-1001487
+                - img "Regular Pumpkin Spice Latte (New Recipe)" [ref=e503]
+                - heading "Regular Pumpkin Spice Latte (New Recipe)" [level=3] [ref=e504]
+              - link "Large Pumpkin Spice Latte (New Recipe) Large Pumpkin Spice Latte (New Recipe)" [ref=e505]:
+                - /url: /menu/product/large-pumpkin-spice-latte-new-recipe-1001489
+                - img "Large Pumpkin Spice Latte (New Recipe)" [ref=e511]
+                - heading "Large Pumpkin Spice Latte (New Recipe)" [level=3] [ref=e512]
+              - link "Regular Caramel Mocha Regular Caramel Mocha" [ref=e513]:
+                - /url: /menu/product/regular-caramel-mocha-1003237
+                - img "Regular Caramel Mocha" [ref=e519]
+                - heading "Regular Caramel Mocha" [level=3] [ref=e520]
+              - link "Large Caramel Mocha Large Caramel Mocha" [ref=e521]:
+                - /url: /menu/product/large-caramel-mocha-1003247
+                - img "Large Caramel Mocha" [ref=e527]
+                - heading "Large Caramel Mocha" [level=3] [ref=e528]
+              - link "Regular Mocha Regular Mocha" [ref=e529]:
+                - /url: /menu/product/regular-mocha-1000782
+                - img "Regular Mocha" [ref=e535]
+                - heading "Regular Mocha" [level=3] [ref=e536]
+              - link "Large Mocha Large Mocha" [ref=e537]:
+                - /url: /menu/product/large-mocha-1000783
+                - img "Large Mocha" [ref=e543]
+                - heading "Large Mocha" [level=3] [ref=e544]
+              - link "Regular White Coffee Regular White Coffee" [ref=e545]:
+                - /url: /menu/product/regular-white-coffee-1000780
+                - img "Regular White Coffee" [ref=e551]
+                - heading "Regular White Coffee" [level=3] [ref=e552]
+              - link "Large White Coffee Large White Coffee" [ref=e553]:
+                - /url: /menu/product/large-white-coffee-1000779
+                - img "Large White Coffee" [ref=e559]
+                - heading "Large White Coffee" [level=3] [ref=e560]
+              - link "Flat White Flat White" [ref=e561]:
+                - /url: /menu/product/flat-white-1000786
+                - img "Flat White" [ref=e567]
+                - heading "Flat White" [level=3] [ref=e568]
+              - link "Espresso Espresso" [ref=e569]:
+                - /url: /menu/product/espresso-1000769
+                - img "Espresso" [ref=e575]
+                - heading "Espresso" [level=3] [ref=e576]
+              - link "Regular Hot Chocolate Regular Hot Chocolate" [ref=e577]:
+                - /url: /menu/product/regular-hot-chocolate-1000825
+                - img "Regular Hot Chocolate" [ref=e583]
+                - heading "Regular Hot Chocolate" [level=3] [ref=e584]
+              - link "Large Hot Chocolate Large Hot Chocolate" [ref=e585]:
+                - /url: /menu/product/large-hot-chocolate-1000824
+                - img "Large Hot Chocolate" [ref=e591]
+                - heading "Large Hot Chocolate" [level=3] [ref=e592]
+              - link "Regular Caramel Hot Chocolate Regular Caramel Hot Chocolate" [ref=e593]:
+                - /url: /menu/product/regular-caramel-hot-chocolate-1003238
+                - img "Regular Caramel Hot Chocolate" [ref=e599]
+                - heading "Regular Caramel Hot Chocolate" [level=3] [ref=e600]
+              - link "Large Caramel Hot Chocolate Large Caramel Hot Chocolate" [ref=e601]:
+                - /url: /menu/product/large-caramel-hot-chocolate-1003248
+                - img "Large Caramel Hot Chocolate" [ref=e607]
+                - heading "Large Caramel Hot Chocolate" [level=3] [ref=e608]
+              - link "Regular Tea Regular Tea" [ref=e609]:
+                - /url: /menu/product/regular-tea-1000789
+                - img "Regular Tea" [ref=e615]
+                - heading "Regular Tea" [level=3] [ref=e616]
+              - link "Large Tea Large Tea" [ref=e617]:
+                - /url: /menu/product/large-tea-1000788
+                - img "Large Tea" [ref=e623]
+                - heading "Large Tea" [level=3] [ref=e624]
+              - link "Regular Green Tea Regular Green Tea" [ref=e625]:
+                - /url: /menu/product/regular-green-tea-1000997
+                - img "Regular Green Tea" [ref=e631]
+                - heading "Regular Green Tea" [level=3] [ref=e632]
+              - link "Regular Peppermint Tea Regular Peppermint Tea" [ref=e633]:
+                - /url: /menu/product/regular-peppermint-tea-1000996
+                - img "Regular Peppermint Tea" [ref=e639]
+                - heading "Regular Peppermint Tea" [level=3] [ref=e640]
+              - link "Small Orange Juice Small Orange Juice" [ref=e641]:
+                - /url: /menu/product/small-orange-juice-2000099
+                - img "Small Orange Juice" [ref=e647]
+                - heading "Small Orange Juice" [level=3] [ref=e648]
+              - link "Large Orange Juice Large Orange Juice" [ref=e649]:
+                - /url: /menu/product/large-orange-juice-2000097
+                - img "Large Orange Juice" [ref=e655]
+                - heading "Large Orange Juice" [level=3] [ref=e656]
+              - link "Fairtrade Apple Juice Fairtrade Apple Juice" [ref=e657]:
+                - /url: /menu/product/fairtrade-apple-juice-2000098
+                - img "Fairtrade Apple Juice" [ref=e663]
+                - heading "Fairtrade Apple Juice" [level=3] [ref=e664]
+              - link "Small Still Water Small Still Water" [ref=e665]:
+                - /url: /menu/product/small-still-water-2000084
+                - img "Small Still Water" [ref=e671]
+                - heading "Small Still Water" [level=3] [ref=e672]
+              - link "Large Still Water Large Still Water" [ref=e673]:
+                - /url: /menu/product/large-still-water-2000085
+                - img "Large Still Water" [ref=e679]
+                - heading "Large Still Water" [level=3] [ref=e680]
+              - link "Sparkling Mango & Pineapple Sparkling Mango & Pineapple" [ref=e681]:
+                - /url: /menu/product/sparkling-mango-pineapple-2000535
+                - img "Sparkling Mango & Pineapple" [ref=e687]
+                - heading "Sparkling Mango & Pineapple" [level=3] [ref=e688]
+              - link "Sparkling Raspberry Lemonade Sparkling Raspberry Lemonade" [ref=e689]:
+                - /url: /menu/product/sparkling-raspberry-lemonade-2000266
+                - img "Sparkling Raspberry Lemonade" [ref=e695]
+                - heading "Sparkling Raspberry Lemonade" [level=3] [ref=e696]
+              - link "Caramel Crispy Bar Caramel Crispy Bar" [ref=e697]:
+                - /url: /menu/product/caramel-crispy-bar-2001305
+                - img "Caramel Crispy Bar" [ref=e703]
+                - heading "Caramel Crispy Bar" [level=3] [ref=e704]
+              - link "Fruity Flapjack Fruity Flapjack" [ref=e705]:
+                - /url: /menu/product/fruity-flapjack-2001285
+                - img "Fruity Flapjack" [ref=e711]
+                - heading "Fruity Flapjack" [level=3] [ref=e712]
+              - link "Thai Sweet Chilli Crisps Thai Sweet Chilli Crisps" [ref=e713]:
+                - /url: /menu/product/thai-sweet-chilli-crisps-2000208
+                - img "Thai Sweet Chilli Crisps" [ref=e719]
+                - heading "Thai Sweet Chilli Crisps" [level=3] [ref=e720]
+              - link "Sea Salt & Cider Vinegar Crisps Sea Salt & Cider Vinegar Crisps" [ref=e721]:
+                - /url: /menu/product/sea-salt-cider-vinegar-crisps-2000987
+                - img "Sea Salt & Cider Vinegar Crisps" [ref=e727]
+                - heading "Sea Salt & Cider Vinegar Crisps" [level=3] [ref=e728]
+              - link "Mature Cheddar Cheese & Onion Crisps Mature Cheddar Cheese & Onion Crisps" [ref=e729]:
+                - /url: /menu/product/mature-cheddar-cheese-onion-crisps-2001027
+                - img "Mature Cheddar Cheese & Onion Crisps" [ref=e735]
+                - heading "Mature Cheddar Cheese & Onion Crisps" [level=3] [ref=e736]
+              - link "Free Range Egg Pot Free Range Egg Pot" [ref=e737]:
+                - /url: /menu/product/free-range-egg-pot-2001475
+                - img "Free Range Egg Pot" [ref=e743]
+                - heading "Free Range Egg Pot" [level=3] [ref=e744]
+          - generic [ref=e746]:
+            - heading "Sandwiches & Salads" [level=2] [ref=e747]
+            - generic [ref=e748]:
+              - link "Roast Chicken Mayonnaise Baguette Roast Chicken Mayonnaise Baguette" [ref=e749]:
+                - /url: /menu/product/roast-chicken-mayonnaise-baguette-1000586
+                - img "Roast Chicken Mayonnaise Baguette" [ref=e755]
+                - heading "Roast Chicken Mayonnaise Baguette" [level=3] [ref=e756]
+              - link "Ham and Cheese Baguette Ham and Cheese Baguette" [ref=e757]:
+                - /url: /menu/product/ham-and-cheese-baguette-1000575
+                - img "Ham and Cheese Baguette" [ref=e763]
+                - heading "Ham and Cheese Baguette" [level=3] [ref=e764]
+              - link "Mature Cheddar Cheese Salad Baguette Mature Cheddar Cheese Salad Baguette" [ref=e765]:
+                - /url: /menu/product/mature-cheddar-cheese-salad-baguette-1000577
+                - img "Mature Cheddar Cheese Salad Baguette" [ref=e771]
+                - heading "Mature Cheddar Cheese Salad Baguette" [level=3] [ref=e772]
+              - link "Spicy Chipotle Chicken Baguette Spicy Chipotle Chicken Baguette" [ref=e773]:
+                - /url: /menu/product/spicy-chipotle-chicken-baguette-1003193
+                - img "Spicy Chipotle Chicken Baguette" [ref=e779]
+                - heading "Spicy Chipotle Chicken Baguette" [level=3] [ref=e780]
+              - link "Roast Chicken and Bacon Club Baguette Roast Chicken and Bacon Club Baguette" [ref=e781]:
+                - /url: /menu/product/roast-chicken-and-bacon-club-baguette-1000574
+                - img "Roast Chicken and Bacon Club Baguette" [ref=e787]
+                - heading "Roast Chicken and Bacon Club Baguette" [level=3] [ref=e788]
+              - link "Tandoori Chicken Baguette Tandoori Chicken Baguette" [ref=e789]:
+                - /url: /menu/product/tandoori-chicken-baguette-1000585
+                - img "Tandoori Chicken Baguette" [ref=e795]
+                - heading "Tandoori Chicken Baguette" [level=3] [ref=e796]
+              - link "Tuna Crunch Baguette Tuna Crunch Baguette" [ref=e797]:
+                - /url: /menu/product/tuna-crunch-baguette-1000573
+                - img "Tuna Crunch Baguette" [ref=e803]
+                - heading "Tuna Crunch Baguette" [level=3] [ref=e804]
+              - link "Cheese & Onion Roll Cheese & Onion Roll" [ref=e805]:
+                - /url: /menu/product/cheese-onion-roll-1003252
+                - img "Cheese & Onion Roll" [ref=e811]
+                - heading "Cheese & Onion Roll" [level=3] [ref=e812]
+              - link "Sweet & Spicy Chicken Oval Bite Sweet & Spicy Chicken Oval Bite" [ref=e813]:
+                - /url: /menu/product/sweet-spicy-chicken-oval-bite-1003188
+                - img "Sweet & Spicy Chicken Oval Bite" [ref=e819]
+                - heading "Sweet & Spicy Chicken Oval Bite" [level=3] [ref=e820]
+              - link "Mature Cheddar Cheese Ploughmans Oval Bite Mature Cheddar Cheese Ploughmans Oval Bite" [ref=e821]:
+                - /url: /menu/product/mature-cheddar-cheese-ploughmans-oval-bite-1000685
+                - img "Mature Cheddar Cheese Ploughmans Oval Bite" [ref=e827]
+                - heading "Mature Cheddar Cheese Ploughmans Oval Bite" [level=3] [ref=e828]
+              - link "Roast Chicken & Honey Mustard Mayo Oval Bite Roast Chicken & Honey Mustard Mayo Oval Bite" [ref=e829]:
+                - /url: /menu/product/roast-chicken-honey-mustard-mayo-oval-bite-1003171
+                - img "Roast Chicken & Honey Mustard Mayo Oval Bite" [ref=e835]
+                - heading "Roast Chicken & Honey Mustard Mayo Oval Bite" [level=3] [ref=e836]
+              - link "Tuna Crunch Roll Tuna Crunch Roll" [ref=e837]:
+                - /url: /menu/product/tuna-crunch-roll-1001960
+                - img "Tuna Crunch Roll" [ref=e843]
+                - heading "Tuna Crunch Roll" [level=3] [ref=e844]
+              - link "Honey Roast Ham and Egg Salad Roll Honey Roast Ham and Egg Salad Roll" [ref=e845]:
+                - /url: /menu/product/honey-roast-ham-and-egg-salad-roll-1001959
+                - img "Honey Roast Ham and Egg Salad Roll" [ref=e851]
+                - heading "Honey Roast Ham and Egg Salad Roll" [level=3] [ref=e852]
+              - link "Chipotle Chicken Flatbread Chipotle Chicken Flatbread" [ref=e853]:
+                - /url: /menu/product/chipotle-chicken-flatbread-1003165
+                - img "Chipotle Chicken Flatbread" [ref=e859]
+                - heading "Chipotle Chicken Flatbread" [level=3] [ref=e860]
+              - link "Roast Chicken Salad Sandwich Roast Chicken Salad Sandwich" [ref=e861]:
+                - /url: /menu/product/roast-chicken-salad-sandwich-1000606
+                - img "Roast Chicken Salad Sandwich" [ref=e867]
+                - heading "Roast Chicken Salad Sandwich" [level=3] [ref=e868]
+              - link "BLT Sandwich BLT Sandwich" [ref=e869]:
+                - /url: /menu/product/blt-sandwich-1003146
+                - img "BLT Sandwich" [ref=e875]
+                - heading "BLT Sandwich" [level=3] [ref=e876]
+              - link "Tuna Mayonnaise & Cucumber Sandwich Tuna Mayonnaise & Cucumber Sandwich" [ref=e877]:
+                - /url: /menu/product/tuna-mayonnaise-cucumber-sandwich-1000601
+                - img "Tuna Mayonnaise & Cucumber Sandwich" [ref=e883]
+                - heading "Tuna Mayonnaise & Cucumber Sandwich" [level=3] [ref=e884]
+              - link "Free Range Egg Mayo Sandwich Free Range Egg Mayo Sandwich" [ref=e885]:
+                - /url: /menu/product/free-range-egg-mayo-sandwich-1000602
+                - img "Free Range Egg Mayo Sandwich" [ref=e891]
+                - heading "Free Range Egg Mayo Sandwich" [level=3] [ref=e892]
+              - link "Tuna Pasta Tuna Pasta" [ref=e893]:
+                - /url: /menu/product/tuna-pasta-2001377
+                - img "Tuna Pasta" [ref=e899]
+                - heading "Tuna Pasta" [level=3] [ref=e900]
+              - link "Smoky Cajun Rice with BBQ Chicken & Sweetcorn Fritters Smoky Cajun Rice with BBQ Chicken & Sweetcorn Fritters" [ref=e901]:
+                - /url: /menu/product/smoky-cajun-rice-with-bbq-chicken-sweetcorn-fritters-2001217
+                - img "Smoky Cajun Rice with BBQ Chicken & Sweetcorn Fritters" [ref=e907]
+                - heading "Smoky Cajun Rice with BBQ Chicken & Sweetcorn Fritters" [level=3] [ref=e908]
+              - link "Sweet Potato Bhaji & Rice Sweet Potato Bhaji & Rice" [ref=e909]:
+                - /url: /menu/product/sweet-potato-bhaji-rice-2001255
+                - img "Sweet Potato Bhaji & Rice" [ref=e915]
+                - heading "Sweet Potato Bhaji & Rice" [level=3] [ref=e916]
+              - link "Pesto and Mozzarella Pasta Pesto and Mozzarella Pasta" [ref=e917]:
+                - /url: /menu/product/pesto-and-mozzarella-pasta-2001235
+                - img "Pesto and Mozzarella Pasta" [ref=e923]
+                - heading "Pesto and Mozzarella Pasta" [level=3] [ref=e924]
+              - link "Chicken & Bacon Pasta Chicken & Bacon Pasta" [ref=e925]:
+                - /url: /menu/product/chicken-bacon-pasta-2001216
+                - img "Chicken & Bacon Pasta" [ref=e931]
+                - heading "Chicken & Bacon Pasta" [level=3] [ref=e932]
+          - generic [ref=e934]:
+            - heading "Sweet Treats" [level=2] [ref=e935]
+            - generic [ref=e936]:
+              - link "Caramel Custard Doughnut Caramel Custard Doughnut" [ref=e937]:
+                - /url: /menu/product/caramel-custard-doughnut-1000128
+                - img "Caramel Custard Doughnut" [ref=e943]
+                - heading "Caramel Custard Doughnut" [level=3] [ref=e944]
+              - link "Glazed Ring Doughnut Glazed Ring Doughnut" [ref=e945]:
+                - /url: /menu/product/glazed-ring-doughnut-1000139
+                - img "Glazed Ring Doughnut" [ref=e951]
+                - heading "Glazed Ring Doughnut" [level=3] [ref=e952]
+              - link "Jam Doughnut Jam Doughnut" [ref=e953]:
+                - /url: /menu/product/jam-doughnut-1002971
+                - img "Jam Doughnut" [ref=e959]
+                - heading "Jam Doughnut" [level=3] [ref=e960]
+              - link "Pink Jammie Doughnut Pink Jammie Doughnut" [ref=e961]:
+                - /url: /menu/product/pink-jammie-doughnut-1000133
+                - img "Pink Jammie Doughnut" [ref=e967]
+                - heading "Pink Jammie Doughnut" [level=3] [ref=e968]
+              - link "Sugar Strand Doughnut Sugar Strand Doughnut" [ref=e969]:
+                - /url: /menu/product/sugar-strand-doughnut-1000140
+                - img "Sugar Strand Doughnut" [ref=e975]
+                - heading "Sugar Strand Doughnut" [level=3] [ref=e976]
+              - link "Triple Chocolate Doughnut Triple Chocolate Doughnut" [ref=e977]:
+                - /url: /menu/product/triple-chocolate-doughnut-1000137
+                - img "Triple Chocolate Doughnut" [ref=e983]
+                - heading "Triple Chocolate Doughnut" [level=3] [ref=e984]
+              - link "Pumpkin Spice Doughnut (New Recipe) Pumpkin Spice Doughnut (New Recipe)" [ref=e985]:
+                - /url: /menu/product/pumpkin-spice-doughnut-new-recipe-1002752
+                - img "Pumpkin Spice Doughnut (New Recipe)" [ref=e991]
+                - heading "Pumpkin Spice Doughnut (New Recipe)" [level=3] [ref=e992]
+              - link "Yum Yum Yum Yum" [ref=e993]:
+                - /url: /menu/product/yum-yum-1001692
+                - img "Yum Yum" [ref=e999]
+                - heading "Yum Yum" [level=3] [ref=e1000]
+              - link "Belgian Bun Belgian Bun" [ref=e1001]:
+                - /url: /menu/product/belgian-bun-1002028
+                - img "Belgian Bun" [ref=e1007]
+                - heading "Belgian Bun" [level=3] [ref=e1008]
+              - link "Cream Éclair Cream Éclair" [ref=e1009]:
+                - /url: /menu/product/cream-eclair-1000172
+                - img "Cream Éclair" [ref=e1015]
+                - heading "Cream Éclair" [level=3] [ref=e1016]
+              - link "Gingerbread Man Gingerbread Man" [ref=e1017]:
+                - /url: /menu/product/gingerbread-man-1001841
+                - img "Gingerbread Man" [ref=e1023]
+                - heading "Gingerbread Man" [level=3] [ref=e1024]
+              - link "Star Biscuit Star Biscuit" [ref=e1025]:
+                - /url: /menu/product/star-biscuit-1000231
+                - img "Star Biscuit" [ref=e1031]
+                - heading "Star Biscuit" [level=3] [ref=e1032]
+              - link "Jammy Heart Biscuit Jammy Heart Biscuit" [ref=e1033]:
+                - /url: /menu/product/jammy-heart-biscuit-1000236
+                - img "Jammy Heart Biscuit" [ref=e1039]
+                - heading "Jammy Heart Biscuit" [level=3] [ref=e1040]
+              - link "Milk Chocolate Cookie Milk Chocolate Cookie" [ref=e1041]:
+                - /url: /menu/product/milk-chocolate-cookie-1000220
+                - img "Milk Chocolate Cookie" [ref=e1047]
+                - heading "Milk Chocolate Cookie" [level=3] [ref=e1048]
+              - link "Triple Chocolate Cookie Triple Chocolate Cookie" [ref=e1049]:
+                - /url: /menu/product/triple-chocolate-cookie-1000219
+                - img "Triple Chocolate Cookie" [ref=e1055]
+                - heading "Triple Chocolate Cookie" [level=3] [ref=e1056]
+              - link "White Chocolate Cookie White Chocolate Cookie" [ref=e1057]:
+                - /url: /menu/product/white-chocolate-cookie-1000218
+                - img "White Chocolate Cookie" [ref=e1063]
+                - heading "White Chocolate Cookie" [level=3] [ref=e1064]
+              - link "Triple Chocolate Muffin Triple Chocolate Muffin" [ref=e1065]:
+                - /url: /menu/product/triple-chocolate-muffin-1001817
+                - img "Triple Chocolate Muffin" [ref=e1071]
+                - heading "Triple Chocolate Muffin" [level=3] [ref=e1072]
+              - link "Toffee Fudge Muffin Toffee Fudge Muffin" [ref=e1073]:
+                - /url: /menu/product/toffee-fudge-muffin-1002769
+                - img "Toffee Fudge Muffin" [ref=e1079]
+                - heading "Toffee Fudge Muffin" [level=3] [ref=e1080]
+              - link "Novelty Bun Novelty Bun" [ref=e1081]:
+                - /url: /menu/product/novelty-bun-1001901
+                - img "Novelty Bun" [ref=e1087]
+                - heading "Novelty Bun" [level=3] [ref=e1088]
+              - link "Chocolate Brownie Bar Chocolate Brownie Bar" [ref=e1089]:
+                - /url: /menu/product/chocolate-brownie-bar-2001370
+                - img "Chocolate Brownie Bar" [ref=e1095]
+                - heading "Chocolate Brownie Bar" [level=3] [ref=e1096]
+              - link "Caramel Shortbread 4 pack Caramel Shortbread 4 pack" [ref=e1097]:
+                - /url: /menu/product/caramel-shortbread-4-pack-1000263
+                - img "Caramel Shortbread 4 pack" [ref=e1103]
+                - heading "Caramel Shortbread 4 pack" [level=3] [ref=e1104]
+              - link "Melon & Grape Fruit Pot Melon & Grape Fruit Pot" [ref=e1105]:
+                - /url: /menu/product/melon-grape-fruit-pot-2001115
+                - img "Melon & Grape Fruit Pot" [ref=e1111]
+                - heading "Melon & Grape Fruit Pot" [level=3] [ref=e1112]
+              - link "Fat Free Greek Style Yoghurt with Strawberry Compote Fat Free Greek Style Yoghurt with Strawberry Compote" [ref=e1113]:
+                - /url: /menu/product/fat-free-greek-style-yoghurt-with-strawberry-compote-2001405
+                - img "Fat Free Greek Style Yoghurt with Strawberry Compote" [ref=e1119]
+                - heading "Fat Free Greek Style Yoghurt with Strawberry Compote" [level=3] [ref=e1120]
+              - link "Apple & Strawberry Fruit Pot Apple & Strawberry Fruit Pot" [ref=e1121]:
+                - /url: /menu/product/apple-strawberry-fruit-pot-2001206
+                - img "Apple & Strawberry Fruit Pot" [ref=e1127]
+                - heading "Apple & Strawberry Fruit Pot" [level=3] [ref=e1128]
+          - generic [ref=e1130]:
+            - heading "Hot Food" [level=2] [ref=e1131]
+            - generic [ref=e1132]:
+              - link "6 Slice Margherita Pizza Box 6 Slice Margherita Pizza Box" [ref=e1133]:
+                - /url: /menu/product/6-slice-margherita-pizza-box-1001827
+                - img "6 Slice Margherita Pizza Box" [ref=e1139]
+                - heading "6 Slice Margherita Pizza Box" [level=3] [ref=e1140]
+              - link "6 Slice Pepperoni Pizza Box 6 Slice Pepperoni Pizza Box" [ref=e1141]:
+                - /url: /menu/product/6-slice-pepperoni-pizza-box-1001828
+                - img "6 Slice Pepperoni Pizza Box" [ref=e1147]
+                - heading "6 Slice Pepperoni Pizza Box" [level=3] [ref=e1148]
+              - link "6 Slice Pepperoni Hot Shot Pizza Box 6 Slice Pepperoni Hot Shot Pizza Box" [ref=e1149]:
+                - /url: /menu/product/6-slice-pepperoni-hot-shot-pizza-box-1002091
+                - img "6 Slice Pepperoni Hot Shot Pizza Box" [ref=e1155]
+                - heading "6 Slice Pepperoni Hot Shot Pizza Box" [level=3] [ref=e1156]
+              - link "6 Slice Spicy Chicken Pizza Box 6 Slice Spicy Chicken Pizza Box" [ref=e1157]:
+                - /url: /menu/product/6-slice-spicy-chicken-pizza-box-1003337
+                - img "6 Slice Spicy Chicken Pizza Box" [ref=e1163]
+                - heading "6 Slice Spicy Chicken Pizza Box" [level=3] [ref=e1164]
+              - link "6 Slice Spicy Veg Pizza Box 6 Slice Spicy Veg Pizza Box" [ref=e1165]:
+                - /url: /menu/product/6-slice-spicy-veg-pizza-box-1002609
+                - img "6 Slice Spicy Veg Pizza Box" [ref=e1171]
+                - heading "6 Slice Spicy Veg Pizza Box" [level=3] [ref=e1172]
+              - link "6 Slice BBQ Chicken & Bacon Pizza Box 6 Slice BBQ Chicken & Bacon Pizza Box" [ref=e1173]:
+                - /url: /menu/product/6-slice-bbq-chicken-bacon-pizza-box-1003191
+                - img "6 Slice BBQ Chicken & Bacon Pizza Box" [ref=e1179]
+                - heading "6 Slice BBQ Chicken & Bacon Pizza Box" [level=3] [ref=e1180]
+              - link "6 Slice Veggie Feast Pizza Box 6 Slice Veggie Feast Pizza Box" [ref=e1181]:
+                - /url: /menu/product/6-slice-veggie-feast-pizza-box-1003141
+                - img "6 Slice Veggie Feast Pizza Box" [ref=e1187]
+                - heading "6 Slice Veggie Feast Pizza Box" [level=3] [ref=e1188]
+              - link "6 Slice Firecracker Chicken Pizza Box 6 Slice Firecracker Chicken Pizza Box" [ref=e1189]:
+                - /url: /menu/product/6-slice-firecracker-chicken-pizza-box-1003310
+                - img "6 Slice Firecracker Chicken Pizza Box" [ref=e1195]
+                - heading "6 Slice Firecracker Chicken Pizza Box" [level=3] [ref=e1196]
+              - link "Hot Chocolate Brownies Hot Chocolate Brownies" [ref=e1197]:
+                - /url: /menu/product/hot-chocolate-brownies-1002249
+                - img "Hot Chocolate Brownies" [ref=e1203]
+                - heading "Hot Chocolate Brownies" [level=3] [ref=e1204]
+              - link "4 Slice Margherita Pizza Box 4 Slice Margherita Pizza Box" [ref=e1205]:
+                - /url: /menu/product/4-slice-margherita-pizza-box-1002879
+                - img "4 Slice Margherita Pizza Box" [ref=e1211]
+                - heading "4 Slice Margherita Pizza Box" [level=3] [ref=e1212]
+              - link "4 Slice Pepperoni Hot Shot Pizza Box 4 Slice Pepperoni Hot Shot Pizza Box" [ref=e1213]:
+                - /url: /menu/product/4-slice-pepperoni-hot-shot-pizza-box-1002878
+                - img "4 Slice Pepperoni Hot Shot Pizza Box" [ref=e1219]
+                - heading "4 Slice Pepperoni Hot Shot Pizza Box" [level=3] [ref=e1220]
+              - link "4 Slice Pepperoni Pizza Box 4 Slice Pepperoni Pizza Box" [ref=e1221]:
+                - /url: /menu/product/4-slice-pepperoni-pizza-box-1002869
+                - img "4 Slice Pepperoni Pizza Box" [ref=e1227]
+                - heading "4 Slice Pepperoni Pizza Box" [level=3] [ref=e1228]
+              - link "4 Slice Spicy Chicken Pizza Box 4 Slice Spicy Chicken Pizza Box" [ref=e1229]:
+                - /url: /menu/product/4-slice-spicy-chicken-pizza-box-1003301
+                - img "4 Slice Spicy Chicken Pizza Box" [ref=e1235]
+                - heading "4 Slice Spicy Chicken Pizza Box" [level=3] [ref=e1236]
+              - link "4 Slice Spicy Veg Pizza Box 4 Slice Spicy Veg Pizza Box" [ref=e1237]:
+                - /url: /menu/product/4-slice-spicy-veg-pizza-box-1002850
+                - img "4 Slice Spicy Veg Pizza Box" [ref=e1243]
+                - heading "4 Slice Spicy Veg Pizza Box" [level=3] [ref=e1244]
+              - link "4 Slice BBQ Chicken & Bacon Pizza Box 4 Slice BBQ Chicken & Bacon Pizza Box" [ref=e1245]:
+                - /url: /menu/product/4-slice-bbq-chicken-bacon-pizza-box-1003156
+                - img "4 Slice BBQ Chicken & Bacon Pizza Box" [ref=e1251]
+                - heading "4 Slice BBQ Chicken & Bacon Pizza Box" [level=3] [ref=e1252]
+              - link "4 Slice Veggie Feast Pizza Box 4 Slice Veggie Feast Pizza Box" [ref=e1253]:
+                - /url: /menu/product/4-slice-veggie-feast-pizza-box-1003109
+                - img "4 Slice Veggie Feast Pizza Box" [ref=e1259]
+                - heading "4 Slice Veggie Feast Pizza Box" [level=3] [ref=e1260]
+              - link "4 Slice Chicken, Sweetcorn & Red Onion Pizza Box 4 Slice Chicken, Sweetcorn & Red Onion Pizza Box" [ref=e1261]:
+                - /url: /menu/product/4-slice-chicken-sweetcorn-red-onion-pizza-box-1003108
+                - img "4 Slice Chicken, Sweetcorn & Red Onion Pizza Box" [ref=e1267]
+                - heading "4 Slice Chicken, Sweetcorn & Red Onion Pizza Box" [level=3] [ref=e1268]
+              - link "4 Slice Firecracker Chicken Pizza Box 4 Slice Firecracker Chicken Pizza Box" [ref=e1269]:
+                - /url: /menu/product/4-slice-firecracker-chicken-pizza-box-1003320
+                - img "4 Slice Firecracker Chicken Pizza Box" [ref=e1275]
+                - heading "4 Slice Firecracker Chicken Pizza Box" [level=3] [ref=e1276]
+              - link "2 Slice Margherita Pizza Box 2 Slice Margherita Pizza Box" [ref=e1277]:
+                - /url: /menu/product/2-slice-margherita-pizza-box-1003250
+                - img "2 Slice Margherita Pizza Box" [ref=e1283]
+                - heading "2 Slice Margherita Pizza Box" [level=3] [ref=e1284]
+              - link "2 Slice Pepperoni Pizza Box 2 Slice Pepperoni Pizza Box" [ref=e1285]:
+                - /url: /menu/product/2-slice-pepperoni-pizza-box-1003270
+                - img "2 Slice Pepperoni Pizza Box" [ref=e1291]
+                - heading "2 Slice Pepperoni Pizza Box" [level=3] [ref=e1292]
+              - link "2 Slice Spicy Chicken Pizza Box 2 Slice Spicy Chicken Pizza Box" [ref=e1293]:
+                - /url: /menu/product/2-slice-spicy-chicken-pizza-box-1003309
+                - img "2 Slice Spicy Chicken Pizza Box" [ref=e1299]
+                - heading "2 Slice Spicy Chicken Pizza Box" [level=3] [ref=e1300]
+              - link "2 Slice Pepperoni Hot Shot Pizza Box 2 Slice Pepperoni Hot Shot Pizza Box" [ref=e1301]:
+                - /url: /menu/product/2-slice-pepperoni-hot-shot-pizza-box-1003291
+                - img "2 Slice Pepperoni Hot Shot Pizza Box" [ref=e1307]
+                - heading "2 Slice Pepperoni Hot Shot Pizza Box" [level=3] [ref=e1308]
+              - link "2 Slice Spicy Veg Pizza Box 2 Slice Spicy Veg Pizza Box" [ref=e1309]:
+                - /url: /menu/product/2-slice-spicy-veg-pizza-box-1003259
+                - img "2 Slice Spicy Veg Pizza Box" [ref=e1315]
+                - heading "2 Slice Spicy Veg Pizza Box" [level=3] [ref=e1316]
+              - link "2 Slice BBQ Chicken & Bacon Pizza Box 2 Slice BBQ Chicken & Bacon Pizza Box" [ref=e1317]:
+                - /url: /menu/product/2-slice-bbq-chicken-bacon-pizza-box-1003281
+                - img "2 Slice BBQ Chicken & Bacon Pizza Box" [ref=e1323]
+                - heading "2 Slice BBQ Chicken & Bacon Pizza Box" [level=3] [ref=e1324]
+              - link "2 Slice Veggie Feast Pizza Box 2 Slice Veggie Feast Pizza Box" [ref=e1325]:
+                - /url: /menu/product/2-slice-veggie-feast-pizza-box-1003251
+                - img "2 Slice Veggie Feast Pizza Box" [ref=e1331]
+                - heading "2 Slice Veggie Feast Pizza Box" [level=3] [ref=e1332]
+              - link "2 Slice Chicken, Sweetcorn & Red Onion Pizza Box 2 Slice Chicken, Sweetcorn & Red Onion Pizza Box" [ref=e1333]:
+                - /url: /menu/product/2-slice-chicken-sweetcorn-red-onion-pizza-box-1003271
+                - img "2 Slice Chicken, Sweetcorn & Red Onion Pizza Box" [ref=e1339]
+                - heading "2 Slice Chicken, Sweetcorn & Red Onion Pizza Box" [level=3] [ref=e1340]
+              - link "2 Slice Firecracker Chicken Pizza Box 2 Slice Firecracker Chicken Pizza Box" [ref=e1341]:
+                - /url: /menu/product/2-slice-firecracker-chicken-pizza-box-1003341
+                - img "2 Slice Firecracker Chicken Pizza Box" [ref=e1347]
+                - heading "2 Slice Firecracker Chicken Pizza Box" [level=3] [ref=e1348]
+              - link "Southern Fried Potato Wedges Southern Fried Potato Wedges" [ref=e1349]:
+                - /url: /menu/product/southern-fried-potato-wedges-1001012
+                - img "Southern Fried Potato Wedges" [ref=e1355]
+                - heading "Southern Fried Potato Wedges" [level=3] [ref=e1356]
+              - link "Southern Fried Chicken Goujons Southern Fried Chicken Goujons" [ref=e1357]:
+                - /url: /menu/product/southern-fried-chicken-goujons-1001011
+                - img "Southern Fried Chicken Goujons" [ref=e1363]
+                - heading "Southern Fried Chicken Goujons" [level=3] [ref=e1364]
+              - link "Spicy BBQ Chicken Bites Spicy BBQ Chicken Bites" [ref=e1365]:
+                - /url: /menu/product/spicy-bbq-chicken-bites-1001497
+                - img "Spicy BBQ Chicken Bites" [ref=e1371]
+                - heading "Spicy BBQ Chicken Bites" [level=3] [ref=e1372]
+              - link "Mozzarella & Cheddar Bites Mozzarella & Cheddar Bites" [ref=e1373]:
+                - /url: /menu/product/mozzarella-cheddar-bites-1002707
+                - img "Mozzarella & Cheddar Bites" [ref=e1379]
+                - heading "Mozzarella & Cheddar Bites" [level=3] [ref=e1380]
+              - link "Tomato Soup Tomato Soup" [ref=e1381]:
+                - /url: /menu/product/tomato-soup-1000902
+                - img "Tomato Soup" [ref=e1387]
+                - heading "Tomato Soup" [level=3] [ref=e1388]
+              - link "Hot Ham and Cheese Baguette Hot Ham and Cheese Baguette" [ref=e1389]:
+                - /url: /menu/product/hot-ham-and-cheese-baguette-1000657
+                - img "Hot Ham and Cheese Baguette" [ref=e1395]
+                - heading "Hot Ham and Cheese Baguette" [level=3] [ref=e1396]
+              - link "Hot Southern Fried Chicken Baguette Hot Southern Fried Chicken Baguette" [ref=e1397]:
+                - /url: /menu/product/hot-southern-fried-chicken-baguette-1000669
+                - img "Hot Southern Fried Chicken Baguette" [ref=e1403]
+                - heading "Hot Southern Fried Chicken Baguette" [level=3] [ref=e1404]
+              - link "All Day Breakfast Baguette All Day Breakfast Baguette" [ref=e1405]:
+                - /url: /menu/product/all-day-breakfast-baguette-1002839
+                - img "All Day Breakfast Baguette" [ref=e1411]
+                - heading "All Day Breakfast Baguette" [level=3] [ref=e1412]
+              - link "Hot Spicy Chipotle Chicken Baguette Hot Spicy Chipotle Chicken Baguette" [ref=e1413]:
+                - /url: /menu/product/hot-spicy-chipotle-chicken-baguette-1003190
+                - img "Hot Spicy Chipotle Chicken Baguette" [ref=e1419]
+                - heading "Hot Spicy Chipotle Chicken Baguette" [level=3] [ref=e1420]
+              - link "Ham & Cheese Toastie (New Recipe) Ham & Cheese Toastie (New Recipe)" [ref=e1421]:
+                - /url: /menu/product/ham-cheese-toastie-new-recipe-1003347
+                - img "Ham & Cheese Toastie (New Recipe)" [ref=e1427]
+                - heading "Ham & Cheese Toastie (New Recipe)" [level=3] [ref=e1428]
+              - link "Cheese & Caramelised Onion Toastie Cheese & Caramelised Onion Toastie" [ref=e1429]:
+                - /url: /menu/product/cheese-caramelised-onion-toastie-1003280
+                - img "Cheese & Caramelised Onion Toastie" [ref=e1435]
+                - heading "Cheese & Caramelised Onion Toastie" [level=3] [ref=e1436]
+              - link "BBQ Chicken Toastie BBQ Chicken Toastie" [ref=e1437]:
+                - /url: /menu/product/bbq-chicken-toastie-1003240
+                - img "BBQ Chicken Toastie" [ref=e1443]
+                - heading "BBQ Chicken Toastie" [level=3] [ref=e1444]
+      - img [ref=e1447]
+      - generic [ref=e1449]:
+        - link "Find a shop" [ref=e1452]:
+          - /url: /shop-finder
+          - img
+          - paragraph [ref=e1454]:
+            - text: Find a
+            - text: shop
+            - img [ref=e1455]
+        - link "Click + Collect" [ref=e1459]:
+          - /url: /click-and-collect
+          - img
+          - paragraph [ref=e1461]:
+            - text: Click
+            - generic [ref=e1462]: +
+            - text: Collect
+            - img [ref=e1463]
+        - link "Delivery" [ref=e1467]:
+          - /url: /order/delivery
+          - img
+          - paragraph [ref=e1469]:
+            - generic [ref=e1470]:
+              - text: Delivery
+              - img [ref=e1471]
+        - link "Download the app" [ref=e1475]:
+          - /url: /app
+          - img [ref=e1476]
+          - paragraph [ref=e1485]:
+            - text: Download
+            - text: the app
+            - img [ref=e1486]
+        - img [ref=e1489]
+      - img [ref=e1493]
+      - generic [ref=e1496]:
+        - heading "Greggs App" [level=2] [ref=e1497]
+        - img "Hand holding image of newly designed app" [ref=e1503]
+        - paragraph [ref=e1504]: Don’t worry, be ‘appy. Our all-singing, all-dancing Greggs App is packed with some seriously tasty features. And, in our humble opinion, your phone ain’t smart without it.
+        - generic [ref=e1507]:
+          - link "Download the app" [ref=e1509]:
+            - /url: https://greggs.onelink.me/0Hou/4db723mb
+          - link "Get more info" [ref=e1511]:
+            - /url: /app
+      - img [ref=e1514]
+  - contentinfo [ref=e1516]:
+    - generic [ref=e1517]:
+      - generic [ref=e1518]:
+        - heading "Fill Your Feeds With Yummy Fill your Feeds" [level=2] [ref=e1519]:
+          - generic [ref=e1520]: Fill Your Feeds With Yummy
+          - img "Fill your Feeds" [ref=e1521]
+        - heading "Follow Greggs" [level=3] [ref=e1524]
+        - navigation "Greggs Social media links navigation" [ref=e1525]:
+          - list [ref=e1526]:
+            - listitem [ref=e1527]:
+              - link "Follow us on Facebook" [ref=e1528]:
+                - /url: https://www.facebook.com/greggsofficial
+                - generic [ref=e1529]: Facebook
+                - img [ref=e1530]
+            - listitem [ref=e1532]:
+              - link "Follow us on Instagram" [ref=e1533]:
+                - /url: https://www.instagram.com/greggs_official
+                - generic [ref=e1534]: Instagram
+                - img [ref=e1535]
+            - listitem [ref=e1537]:
+              - link "Follow us on X" [ref=e1538]:
+                - /url: https://twitter.com/GreggsOfficial
+                - generic [ref=e1539]: X
+                - img [ref=e1540]
+            - listitem [ref=e1542]:
+              - link "Follow us on TikTok" [ref=e1543]:
+                - /url: https://www.tiktok.com/@greggsofficial
+                - generic [ref=e1544]: TikTok
+                - img [ref=e1545]
+      - navigation "Footer navigation" [ref=e1549]:
+        - list [ref=e1550]:
+          - listitem [ref=e1551]:
+            - link "About Us" [ref=e1552]:
+              - /url: /about
+          - listitem [ref=e1553]:
+            - link "Contact Us" [ref=e1554]:
+              - /url: /contact
+          - listitem [ref=e1555]:
+            - link "Privacy Policy" [ref=e1556]:
+              - /url: /legals/privacy-policy
+        - list [ref=e1557]:
+          - listitem [ref=e1558]:
+            - link "Cookie Policy" [ref=e1559]:
+              - /url: /legals/cookie-policy
+          - listitem [ref=e1560]:
+            - link "Modern Slavery Statement" [ref=e1561]:
+              - /url: https://a.storyblok.com/f/94904/x/4205c604f5/greggs-modern-slavery-statement.pdf
+          - listitem [ref=e1562]:
+            - link "Pay Gap" [ref=e1563]:
+              - /url: https://a.storyblok.com/f/94904/x/bc10774e9a/greggs-pay-gap-report-2023.pdf
+        - list [ref=e1564]:
+          - listitem [ref=e1565]:
+            - link "Greggs Foundation" [ref=e1566]:
+              - /url: https://www.greggsfoundation.org.uk
+          - listitem [ref=e1567]:
+            - link "Greggs Careers" [ref=e1568]:
+              - /url: https://careers.greggs.co.uk
+          - listitem [ref=e1569]:
+            - link "Corporate" [ref=e1570]:
+              - /url: https://corporate.greggs.co.uk/
+        - list [ref=e1571]:
+          - listitem [ref=e1572]:
+            - link "FAQs" [ref=e1573]:
+              - /url: /faqs/
+          - listitem [ref=e1574]:
+            - link "T&Cs" [ref=e1575]:
+              - /url: /legals/terms-and-conditions
+          - listitem [ref=e1576]:
+            - generic [ref=e1577] [cursor=pointer]: Cookie settings
+          - listitem [ref=e1578]:
+            - link "Promotions and offers" [ref=e1579]:
+              - /url: /legals/promotions-and-offers
+      - paragraph [ref=e1580]: Copyright © 2013 - 2025 Greggs plc
+```
