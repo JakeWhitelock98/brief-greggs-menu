@@ -5,7 +5,9 @@ QA Engineer Test Brief: Greggs.com Menu Testing public repo
 Steps to run these playwright tests with allure reporting.
 
 - Install playwright
-    Can be done through `npm init playwright@latest` or `npm install --save-dev @playwright/test`
+```bash
+`npm install --save-dev @playwright/test`
+```
 
 - Install Allure reporter 
 ```bash
@@ -29,6 +31,7 @@ npx playwright test
 ```bash
 allure serve allure-results
 ```
+I have uploaded test results to the repo already so this can be done straight way once downloaded to the PC.
 
 # What I Tested 
 
