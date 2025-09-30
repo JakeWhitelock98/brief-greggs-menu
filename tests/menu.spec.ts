@@ -2298,8 +2298,8 @@ test.describe('Menu Page Food Item Navigation - Hot Food', () => {
         await expect(productPage.productTitle).toHaveText('4 Slice Veggie Feast Pizza Box');
     });
 
-    test('Verify Navigation to 4 Slice Chicken Sweetcorn & Red Onion Pizza Box Page', async ({ page }) => {
-        await allure.displayName("4 Slice Chicken Sweetcorn & Red Onion Pizza Box Page Navigation");
+    test('Verify Navigation to 4 Slice Chicken, Sweetcorn & Red Onion Pizza Box Page', async ({ page }) => {
+        await allure.displayName("4 Slice Chicken, Sweetcorn & Red Onion Pizza Box Page Navigation");
         await allure.tags("Web interface", "Menu", "Navigation", "Hot Food");
         await allure.severity("critical");
         const menuPage = new MenuPage(page);
@@ -2307,7 +2307,7 @@ test.describe('Menu Page Food Item Navigation - Hot Food', () => {
 
         await menuPage.FourSliceChickenSweetcornAndRedOnionPizzaBox.click();
         await productPage.productTitle.waitFor({ state: 'visible' });
-        await expect(productPage.productTitle).toHaveText('4 Slice Chicken Sweetcorn & Red Onion Pizza Box');
+        await expect(productPage.productTitle).toHaveText('4 Slice Chicken, Sweetcorn & Red Onion Pizza Box');
     });
 
     test('Verify Navigation to 4 Slice Firecracker Chicken Pizza Box Page', async ({ page }) => {
